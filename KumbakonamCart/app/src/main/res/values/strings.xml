@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Induster</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="bike_category">
+        <item>Royal Enfield</item>
+        <item>Bajaj Auto</item>
+        <item>Mahindra</item>
+        <item>TVS Motors</item>
+        <item>Jawa Moto</item>
+        <item>Honda</item>
+        <item>Suzuki</item>
+        <item>Yamaha Motors</item>
+    </string-array>
+
+    <string-array name="bike_sub_category">
+        <item>Spare Parts</item>
+    </string-array>
+
+
+</resources>

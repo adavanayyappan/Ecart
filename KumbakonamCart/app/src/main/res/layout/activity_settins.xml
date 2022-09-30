@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<com.rey.material.widget.RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.User.SettinsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rey.material.widget.RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.am.induster.SupportingFiles.TextView.TelegraphMediumTextView
+                    android:id="@+id/close_settings_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <com.am.induster.SupportingFiles.TextView.TelegraphSemiBoldTextView
+                    android:id="@+id/update_account_settings_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </com.rey.material.widget.RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/app_bar_settings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+    <com.am.induster.SupportingFiles.TextView.TelegraphMediumTextView
+        android:id="@+id/profile_image_change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:text="Change Profile"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_enterprise_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image_change_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Enterprise Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_useremail_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_enterprise_name_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Enterprise Email Address"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_useremail_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Enterprise Phone Number"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_number_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Enterprise Address"
+        android:inputType="textPostalAddress"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_city_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_address_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="City"
+        android:inputType="textPostalAddress"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_state_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_city_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="State"
+        android:inputType="textPostalAddress"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_postalcode_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_state_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="PostalCode"
+        android:inputType="textPostalAddress"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <com.am.induster.SupportingFiles.EditText.TelegraphMediumEditText
+        android:id="@+id/register_gstnumber_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_postalcode_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="GST NUMBER"
+        android:inputType="textAutoComplete"
+        android:padding="20dp"
+        android:textColor="@color/textColorPrimary2"
+        android:textColorHint="@color/textColorSecondary"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+
+    <com.am.induster.SupportingFiles.Button.TelegraphBoldButton
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_gstnumber_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</com.rey.material.widget.RelativeLayout>
+</ScrollView>

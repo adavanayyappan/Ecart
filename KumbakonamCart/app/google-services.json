@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474840309764",
+    "firebase_url": "https://induster-743aa-default-rtdb.firebaseio.com",
+    "project_id": "induster-743aa",
+    "storage_bucket": "induster-743aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474840309764:android:69e113738d80aa30095551",
+        "android_client_info": {
+          "package_name": "com.am.induster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474840309764-8nauq9evs9ebvuoe4ad0eeqv25cjds5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK5Ty9g55IRC2Tk2T_2fg0F5hOBAxV_rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474840309764-8nauq9evs9ebvuoe4ad0eeqv25cjds5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
